@@ -30,10 +30,10 @@ set shiftwidth=2                           " Number of spaces to use in each aut
 set tabstop=2                              " Two tab spaces
 set softtabstop=2                          " Number of spaces to skip or insert when <BS>ing or <Tab>ing
 set expandtab                              " Spaces instead of tabs for better cross-editor compatibility
-set autoindent                             " Keep the indent when creating a new line
+" set autoindent                             " Keep the indent when creating a new line
 set smarttab                               " Use shiftwidth and softtabstop to insert or delete (on <BS>) blanks
 set cindent                                " Recommended seting for automatic C-style indentation
-set autoindent                             " Automatic indentation in non-C files
+" set autoindent                             " Automatic indentation in non-C files
 set foldmethod=indent                      " Fold based on source indentation
 set foldlevelstart=99											 " Expand all folds by default
 
@@ -60,5 +60,5 @@ set smartcase                              " Switch to case sensitive mode if ne
 set statusline=%F%m%r%h%w\ [TYPE=%Y]\ \ \ \ \ \ [POS=%2l,%2v][%p%%]\ \ \ \ \ \ [LEN=%L]
 set laststatus=2
 
-" Default colourscheme
-colorscheme jellybeans 
+set background=dark
+colorscheme solarized

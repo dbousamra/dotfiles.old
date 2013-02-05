@@ -8,7 +8,7 @@
 
 dir=~/Documents/workspace/Misc/dotfiles                    # dotfiles directory
 olddir=~/Documents/workspace/Misc/dotfiles-old             # old dotfiles backup directory
-files=".vimrc .zshrc .gitconfig .oh-my-zsh"           # list of files/folders to symlink in homedir
+files=".vimrc .zshrc .gitconfig .oh-my-zsh .tmux.conf"     # list of files/folders to symlink in homedir
 
 ########## Logic
 

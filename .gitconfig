@@ -1,0 +1,10 @@
+[color]
+	ui = true
+[alias]
+	s = status
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+[user]
+	name = Dominic Bou-Samra
+	email = dominic.bou.samra@gmail.com
+[core]
+	editor = open -a 'Sublime Text 2'

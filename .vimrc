@@ -1,6 +1,15 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'Valloric/YouCompleteMe'
+
+
+
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
-set nocompatible                           " Don't need to keep compatibility with Vi
 set hidden                                 " Allow hiding buffers with unsaved changes
 set listchars=trail:.,tab:▸\ ,eol:¬        " Change the invisible characters
 set nolist                                 " Hide invisibles by default
@@ -22,7 +31,7 @@ set autoread                               " Automatically reload externally mod
 set autowriteall													 " Automatically write modified files
 set spelllang=en_au                        " Set default spelling language to English (Australia)
 set antialias
-
+let mapleader = ","
 set visualbell                             " Turns off beeping
 
 " Indentation
@@ -62,3 +71,6 @@ set laststatus=2
 
 set background=dark
 colorscheme solarized
+
+
+filetype plugin indent on     " required!

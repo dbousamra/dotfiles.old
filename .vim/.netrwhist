@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/domlebo70/Documents/workspace/Scala/workbench/src'
 let g:netrw_dirhist_2='/Users/domlebo70/Documents/workspace/Scala/workbench/src/main'
 let g:netrw_dirhist_3='/Users/domlebo70/Documents/workspace/Scala/workbench/src/main/scala'
+let g:netrw_dirhist_4='/Users/domlebo70/Documents/workspace/Scala/workbench'
+let g:netrw_dirhist_5='/Users/domlebo70/Documents/workspace/Scala/workbench/src'
+let g:netrw_dirhist_6='/Users/domlebo70/Documents/workspace/Scala/workbench/src/main'
+let g:netrw_dirhist_7='/Users/domlebo70/Documents/workspace/Scala/workbench/src/main/scala'
+let g:netrw_dirhist_8='/Users/domlebo70/Documents/workspace/Misc/dotfiles'

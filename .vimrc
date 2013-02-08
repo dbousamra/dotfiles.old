@@ -5,8 +5,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
-
-
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
 
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
@@ -47,7 +47,7 @@ set foldmethod=indent                      " Fold based on source indentation
 set foldlevelstart=99											 " Expand all folds by default
 
 " Wrap
-set nowrap                                 " I don't always wrap lines...
+"set nowrap                                 " I don't always wrap lines...
 set linebreak                              " ...but when I do, I wrap whole words.
 set wildmenu                               " Make tab completion act more like bash
 set wildmode=list:longest                  " Tab complete to longest common string, like bash
@@ -74,3 +74,5 @@ colorscheme solarized
 
 
 filetype plugin indent on     " required!
+
+map <leader>t :NERDTreeToggle<cr>

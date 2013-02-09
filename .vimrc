@@ -7,6 +7,10 @@ Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-rails'
+
+set timeout timeoutlen=1000 ttimeoutlen=100
+
 
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation

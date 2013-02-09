@@ -8,6 +8,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
 
 set timeout timeoutlen=1000 ttimeoutlen=100
 

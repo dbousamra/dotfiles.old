@@ -38,3 +38,4 @@ source $ZSH/oh-my-zsh.sh
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias rake="noglob rake"
 PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/Downloads/

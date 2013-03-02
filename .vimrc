@@ -9,9 +9,11 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/SearchComplete'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'kien/ctrlp.vim'
 
 set timeout timeoutlen=1000 ttimeoutlen=100
-
 
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
@@ -68,7 +70,7 @@ set matchtime=2                            " (for only .2 seconds).
 " Searching
 set ignorecase                             " Ignore case by default when searching
 set smartcase                              " Switch to case sensitive mode if needle contains uppercase characters
-
+:nmap \q :nohlsearch<CR>
 
 " Custom status line
 set statusline=%F%m%r%h%w\ [TYPE=%Y]\ \ \ \ \ \ [POS=%2l,%2v][%p%%]\ \ \ \ \ \ [LEN=%L]
@@ -81,3 +83,18 @@ colorscheme solarized
 filetype plugin indent on     " required!
 
 map <leader>t :NERDTreeToggle<cr>
+
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+:let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+:let g:ctrlp_working_path_mode = 0
+:let g:ctrlp_dotfiles = 0
+:let g:ctrlp_switch_buffer = 0
+:let g:ctrlp_map = '<Leader>p'

@@ -14,7 +14,6 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
 
 set timeout timeoutlen=1000 ttimeoutlen=100
-
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation
 set hidden                                 " Allow hiding buffers with unsaved changes

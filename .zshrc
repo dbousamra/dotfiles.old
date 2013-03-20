@@ -36,6 +36,11 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-alias rake="noglob rake"
 PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Downloads/
+PATH=$PATH:$HOME/Downloads/sonar-runner-2.0/bin 
+
+
+# Aliases
+alias pcat="pygmentize -f terminal256 -O style=native -g"
+alias rake="noglob rake"

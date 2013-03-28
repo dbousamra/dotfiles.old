@@ -37,10 +37,13 @@ source $ZSH/oh-my-zsh.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/Downloads/
-PATH=$PATH:$HOME/Downloads/sonar-runner-2.0/bin 
+PATH=$PATH:$HOME/Documents/workspace/Misc/play-1.2.5/
+
 
 
 # Aliases
 alias pcat="pygmentize -f terminal256 -O style=native -g"
 alias rake="noglob rake"
+alias workspace="cd ~/Documents/workspace/"
+alias thoughtworks="cd ~/Documents/workspace/ThoughtWorks"
+alias scala="cd ~/Documents/workspace/Scala"

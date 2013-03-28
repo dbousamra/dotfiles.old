@@ -2,7 +2,8 @@
 	ui = true
 [alias]
 	s = status
-	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
+  plog = log --graph --oneline --all
 [user]
 	name = Dominic Bou-Samra
 	email = dominic.bou.samra@gmail.com

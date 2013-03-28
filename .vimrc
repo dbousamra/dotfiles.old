@@ -12,6 +12,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/SearchComplete'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-rails.vim'
 
 set timeout timeoutlen=1000 ttimeoutlen=100
 syntax on                                  " Turn on syntax highlighting
@@ -51,7 +52,7 @@ set cindent                                " Recommended seting for automatic C-
 " set autoindent                             " Automatic indentation in non-C files
 set foldmethod=indent                      " Fold based on source indentation
 set foldlevelstart=99											 " Expand all folds by default
-
+nnoremap <esc> :noh<return><esc>
 " Wrap
 "set nowrap                                 " I don't always wrap lines...
 set linebreak                              " ...but when I do, I wrap whole words.

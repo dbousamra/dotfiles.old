@@ -12,8 +12,8 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/SearchComplete'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-rails.vim'
 
+let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100
 syntax on                                  " Turn on syntax highlighting
 filetype plugin indent on                  " Enable automatic filetype detection, filetype-specific plugins/indentation

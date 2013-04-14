@@ -38,12 +38,12 @@ source $ZSH/oh-my-zsh.sh
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Misc/play-1.2.5/
-
+PATH=$PATH:$HOME/Applications/Firefox.app/Contents/MacOS/
 
 
 # Aliases
 alias pcat="pygmentize -f terminal256 -O style=native -g"
-alias rake="noglob rake"
 alias workspace="cd ~/Documents/workspace/"
 alias thoughtworks="cd ~/Documents/workspace/ThoughtWorks"
 alias scala="cd ~/Documents/workspace/Scala"
+alias cl="clear"

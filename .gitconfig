@@ -4,6 +4,8 @@
 	s = status
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
   plog = log --graph --oneline --all
+  co = checkout
+  commit = c
 [user]
 	name = Dominic Bou-Samra
 	email = dominic.bou.samra@gmail.com

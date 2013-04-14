@@ -12,6 +12,14 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/SearchComplete'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'garbas/vim-snipmate'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/vim-snippets"
+Bundle "mileszs/ack.vim"
+Bundle "Lokaltog/vim-powerline"
+Bundle "terryma/vim-multiple-cursors"
 
 let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100
@@ -52,7 +60,7 @@ set cindent                                " Recommended seting for automatic C-
 " set autoindent                             " Automatic indentation in non-C files
 set foldmethod=indent                      " Fold based on source indentation
 set foldlevelstart=99											 " Expand all folds by default
-nnoremap <esc> :noh<return><esc>
+"nnoremap <esc> :noh<return><esc>
 " Wrap
 "set nowrap                                 " I don't always wrap lines...
 set linebreak                              " ...but when I do, I wrap whole words.
@@ -83,7 +91,7 @@ colorscheme solarized
 filetype plugin indent on     " required!
 
 map <leader>t :NERDTreeToggle<cr>
-
+nmap ,n :NERDTreeFind<CR>
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
@@ -98,3 +106,4 @@ imap <right> <nop>
 :let g:ctrlp_dotfiles = 0
 :let g:ctrlp_switch_buffer = 0
 :let g:ctrlp_map = '<Leader>p'
+:let g:ctrlp_show_hidden = 1

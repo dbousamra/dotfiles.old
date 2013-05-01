@@ -20,6 +20,8 @@ Bundle "honza/vim-snippets"
 Bundle "mileszs/ack.vim"
 Bundle "Lokaltog/vim-powerline"
 Bundle "terryma/vim-multiple-cursors"
+Bundle "derekwyatt/vim-scala"
+Bundle "gre/play2vim"
 
 let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100
@@ -92,14 +94,14 @@ filetype plugin indent on     " required!
 
 map <leader>t :NERDTreeToggle<cr>
 nmap ,n :NERDTreeFind<CR>
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+"map <up> <nop>
+"map <down> <nop>
+"map <left> <nop>
+"map <right> <nop>
+"imap <up> <nop>
+"imap <down> <nop>
+"imap <left> <nop>
+"imap <right> <nop>
 
 :let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
 :let g:ctrlp_working_path_mode = 0

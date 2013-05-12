@@ -5,12 +5,12 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/SearchComplete'
-Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'garbas/vim-snipmate'
@@ -19,9 +19,9 @@ Bundle "tomtom/tlib_vim"
 Bundle "honza/vim-snippets"
 Bundle "mileszs/ack.vim"
 Bundle "Lokaltog/vim-powerline"
-Bundle "terryma/vim-multiple-cursors"
 Bundle "derekwyatt/vim-scala"
 Bundle "gre/play2vim"
+Bundle "Lokaltog/vim-easymotion"
 
 let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100

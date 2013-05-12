@@ -21,7 +21,6 @@ PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Misc/play-1.2.5/
 PATH=$PATH:$HOME/Applications/Firefox.app/Contents/MacOS/
 
-
 # Aliases
 alias pcat="pygmentize -f terminal256 -O style=native -g"
 alias workspace="cd ~/Documents/workspace/"
@@ -29,3 +28,15 @@ alias thoughtworks="cd ~/Documents/workspace/ThoughtWorks"
 alias scala="cd ~/Documents/workspace/Scala"
 alias cl="clear"
 alias rcl="rake tmp:clear && rake assets:clean"
+
+# pro cd function
+pd() {
+  local projDir=$(pro search $1)
+  cd ${projDir}
+}
+
+export RUBY_HEAP_MIN_SLOTS=800000
+export RUBY_HEAP_FREE_MIN=100000
+export RUBY_HEAP_SLOTS_INCREMENT=300000
+export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
+export RUBY_GC_MALLOC_LIMIT=79000000

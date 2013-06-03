@@ -22,6 +22,7 @@ Bundle "Lokaltog/vim-powerline"
 Bundle "derekwyatt/vim-scala"
 Bundle "gre/play2vim"
 Bundle "Lokaltog/vim-easymotion"
+Bundle 'editorconfig/editorconfig-vim'
 
 let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100

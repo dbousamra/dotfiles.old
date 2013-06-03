@@ -28,6 +28,9 @@ alias thoughtworks="cd ~/Documents/workspace/ThoughtWorks"
 alias scala="cd ~/Documents/workspace/Scala"
 alias cl="clear"
 alias rcl="rake tmp:clear && rake assets:clean"
+alias cloudls="rake cloud:list ENVIRONMENT=showcase"
+
+
 
 # pro cd function
 pd() {

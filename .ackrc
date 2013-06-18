@@ -1,0 +1,3 @@
+--ignore-dir=~/Documents/workspace/GetUp/Tijuana/db
+--ignore-dir=~/Documents/workspace/GetUp/Tijuana/log/*.log
+--ignore-dir=~/Documents/workspace/GetUp/Tijuana/tmp/

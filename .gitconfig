@@ -6,6 +6,9 @@
   plog = log --graph --oneline --all
   co = checkout
   commit = c
+  l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  pr = pull --rebase
+  sl = shortlog -ns
 [user]
 	name = Dominic Bou-Samra
 	email = dominic.bou.samra@gmail.com

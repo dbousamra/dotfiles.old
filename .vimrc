@@ -4,7 +4,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
@@ -23,6 +23,9 @@ Bundle "derekwyatt/vim-scala"
 Bundle "gre/play2vim"
 Bundle "Lokaltog/vim-easymotion"
 Bundle 'editorconfig/editorconfig-vim'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 
 let NERDTreeShowHidden=1
 set timeout timeoutlen=1000 ttimeoutlen=100

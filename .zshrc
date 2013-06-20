@@ -30,7 +30,7 @@ alias cl="clear"
 alias rcl="rake tmp:clear && rake assets:clean"
 alias cloudls="rake cloud:list ENVIRONMENT=showcase"
 alias z="zeus"
-alias rspec="zeus rspec"
+alias zrspec="zeus rspec -fd"
 
 
 

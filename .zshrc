@@ -20,6 +20,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Roy/roy # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Documents/workspace/Misc/play-1.2.5/
 PATH=$PATH:$HOME/Applications/Firefox.app/Contents/MacOS/
+PATH=$PATH:/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin
 
 # Aliases
 alias pcat="pygmentize -f terminal256 -O style=native -g"
@@ -31,6 +32,7 @@ alias rcl="rake tmp:clear && rake assets:clean"
 alias cloudls="rake cloud:list ENVIRONMENT=showcase"
 alias z="zeus"
 alias zrspec="zeus rspec -fd"
+alias rspec="rspec -fd"
 
 
 

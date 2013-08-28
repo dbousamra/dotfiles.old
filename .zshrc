@@ -33,7 +33,13 @@ alias cloudls="rake cloud:list ENVIRONMENT=showcase"
 alias z="zeus"
 alias zrspec="zeus rspec -fd"
 alias rspec="rspec -fd"
-
+alias r="rspec -fd"
+#alias pry="pry -r ./config/environment"
+alias gd="cd ~/Documents/workspace/GetUp/Tijuana"
+alias sshci='ssh jenkins@192.168.1.151'
+alias gut="git"
+alias cuke=" ruby -S bundle exec cucumber --tags ~@securepay --tags ~@paypal --tags ~@randomlyfailingwip --tags ~@wip --tags ~@responsive"
+alias standup="~/Documents/workspace/Misc/dotfiles/standup.sh"
 
 
 # pro cd function

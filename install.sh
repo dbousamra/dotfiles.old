@@ -5,9 +5,9 @@
 
 ########## Variables
 
-dir=~/Documents/workspace/Misc/dotfiles                    # dotfiles directory
-olddir=~/Documents/workspace/Misc/dotfiles-old             # old dotfiles backup directory
-files=".vimrc .zshrc .gitconfig .oh-my-zsh .tmux.conf .vim .pryrc .gemrc, .ackrc .tmuxinator"     # list of files/folders to symlink in homedir
+dir=~/Code//Misc/dotfiles                    # dotfiles directory
+olddir=~/Code/Misc/dotfiles-old             # old dotfiles backup directory
+files=".vimrc .zshrc .gitconfig .oh-my-zsh .tmux.conf .vim .pryrc .gemrc, .ackrc .tmuxinator .vars"     # list of files/folders to symlink in homedir
 
 ########## Logic
 
